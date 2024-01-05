@@ -10,7 +10,7 @@ export default function handleResponseFromAPI(promise){
             reject()
         }
     })
-
-    .finally(()=>{console.log('Got a response from the API')})
+    guess
+        .finally(()=>{console.log('Got a response from the API')})
     return guess;
 }
